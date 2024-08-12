@@ -1,0 +1,51 @@
+/* CSS Document */
+
+.Confont {
+  font-family: 'Prompt', sans-serif;
+}
+
+.Barnav {
+  font-size: 20px;
+}
+
+.huay{
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.FU {
+  animation: fade-up 0.5s;
+}
+
+.FD {
+  animation: fade-down 0.5s;
+}
+
+.link-muted { color: #aaa; } .link-muted:hover { color: #1266f1; }
+
+@keyframes fade-up {
+  0% {
+    opacity: 0;
+    transform: translateY(30px) scale(0.9);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
+}
+
+@keyframes fade-down {
+  0% {
+    opacity: 0;
+    transform: translateY(-30px) scale(0.9);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
+}
+
+
+
